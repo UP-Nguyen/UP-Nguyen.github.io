@@ -32,6 +32,10 @@ html, body {
     color: #252421;
   }
   
+  .floatRight{float:right;margin-left:20px}
+  .floatRightClear{float:right;clear:right;margin-left:20px}
+
+
   header {
     margin-top: -18px;
     width: 100%;
