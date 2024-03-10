@@ -82,6 +82,11 @@ html, body {
     align-items: center;
     justify-content: center;
   }
+
+  #wink  { 
+    float: right;     
+     margin: 0 0 0 15px; 
+    } 
   
   #about {
     height: 100%;
