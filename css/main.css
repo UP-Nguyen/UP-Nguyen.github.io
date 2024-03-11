@@ -88,8 +88,8 @@ html, body {
     width: 100%;
     position: relative;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
   }
 
   #wink  { 
