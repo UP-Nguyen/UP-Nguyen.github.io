@@ -83,7 +83,7 @@ html, body {
     justify-content: center;
   }
 
-  #writing-home {
+  #writing {
     height: 100%;
     width: 100%;
     position: relative;
@@ -154,14 +154,35 @@ html, body {
     align-items: center;
     margin: 0;
   }
+
+  #writing-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
   
   #home-introduction {
     margin-right: 50px;
     width: 330px;
     min-width: 330px;
   }
+
+  #writing-introduction {
+    margin-right: 50px;
+    width: 330px;
+    min-width: 330px;
+  }
   
   #home-hello {
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  #writing-hello {
     letter-spacing: 1px;
     font-size: 24px;
     font-weight: 700;
@@ -174,14 +195,32 @@ html, body {
     letter-spacing: 0.75px;
     margin-bottom: 40px;
   }
+
+  #writing-text {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    margin-bottom: 40px;
+  }
   
   #home-text a:visited, #home-text a, #about-text a:visited, #about-text a {
     color: #D14027;
     font-weight: 700;
     transition: 0.3s;
   }
+
+  #writing-text a:visited, #writing-text a, #about-text a:visited, #about-text a {
+    color: #D14027;
+    font-weight: 700;
+    transition: 0.3s;
+  }
   
   #home-text a:hover, #about-text a:hover {
+    color: #D56350;
+    transition: 0.3s;
+  }
+
+  #writing-text a:hover, #about-text a:hover {
     color: #D56350;
     transition: 0.3s;
   }
@@ -269,8 +308,21 @@ html, body {
       align-items: center;
       margin: 0;
     }
+
+    #writing-content {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
   
     #home-introduction {
+      margin-right: 0px;
+      width: 330px;
+      min-width: 330px;
+    }
+
+    #writing-introduction {
       margin-right: 0px;
       width: 330px;
       min-width: 330px;
@@ -280,8 +332,17 @@ html, body {
       margin-top: 20px;
       margin-bottom: 20px;
     }
+
+    #writing-hello {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   
     #home-text {
+      margin-bottom: 30px;
+    }
+
+    #writing-text {
       margin-bottom: 30px;
     }
   
