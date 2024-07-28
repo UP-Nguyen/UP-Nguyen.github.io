@@ -129,6 +129,7 @@ html, body {
   }
 
   #outdoor {
+    margin-top: 150px;
     height: 93%;
     width: 100%;
     font-size: smaller;
