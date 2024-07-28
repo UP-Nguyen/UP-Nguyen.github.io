@@ -130,6 +130,7 @@ html, body {
   #outdoor {
     height: 93%;
     width: 100%;
+    font-size: smaller;
     position: relative;
     display: flex;
     flex-direction: column;
