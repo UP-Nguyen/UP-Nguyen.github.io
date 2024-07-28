@@ -138,9 +138,11 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
   }
 
   #run {
+    margin-top: 150px;
     height: 93%;
     width: 100%;
     position: relative;
