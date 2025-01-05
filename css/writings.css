@@ -1,0 +1,44 @@
+body {
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    width: 75%;
+    height: 200vh;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-left: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    min-height: 200px;
+    overflow: auto;
+    background: #a7e9c5;
+    color: #48793c;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    font-size: 25px;
+}
+
+.st-h3 {
+    padding-left: 30px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+h2 {
+    color: green;
+}
