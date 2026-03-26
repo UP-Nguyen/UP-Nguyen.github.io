@@ -616,3 +616,12 @@ h2 {
   margin-top: 28px;
   flex-wrap: wrap;
 }
+
+
+.running-tabs .experience-panel {
+  min-height: 340px;
+}
+
+#run .supporting-panel {
+  margin-top: 32px;
+}
