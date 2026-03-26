@@ -250,40 +250,67 @@
       </section>
 
       <section id="projects" class="content-section">
-        <div class="section-heading">Featured Projects</div>
-        <div class="card-list">
-          <article class="experience-card">
-            <div class="experience-meta">2026</div>
-            <div class="experience-body">
-              <h3><a target="_blank" rel="noreferrer" href="https://up-nguyen.github.io/urban-transit-datathon-2026/">Interactive Urban Transit Atlas</a></h3>
-              <p>
-                A data visualization project exploring urban transit patterns through an interactive web experience. Built to make public transportation data more legible, engaging, and useful for storytelling and city-focused analysis.
-              </p>
-              <ul class="tag-list">
-                <li>Data Visualization</li>
-                <li>Web Mapping</li>
-                <li>Urban Data</li>
-              </ul>
-            </div>
-          </article>
+        <div class="section-heading">Projects</div>
 
-          <article class="experience-card">
-            <div class="experience-meta">Archive</div>
-            <div class="experience-body">
-              <h3><a href="projects.html">More selected work</a></h3>
-              <p>
-                Browse additional software, community, and creative projects including experiments in public-interest technology, data work, and storytelling.
-              </p>
-              <ul class="tag-list">
-                <li>Portfolio</li>
-                <li>Software</li>
-                <li>Community Projects</li>
-              </ul>
+        <div class="experience-group">
+          <div class="experience-group-title">
+            <span class="group-kicker">03.</span>
+            <h3>Selected Projects</h3>
+          </div>
+
+          <div class="experience-tabs project-tabs" data-tab-group="projects">
+            <div class="experience-tab-list" role="tablist" aria-label="Project tabs">
+              <button class="experience-tab active" role="tab" id="tab-transit" aria-selected="true" aria-controls="panel-transit" data-target="panel-transit">
+                <span class="tab-dates">2026</span>
+                <span class="tab-company">Urban Transit Atlas</span>
+              </button>
+              <button class="experience-tab" role="tab" id="tab-archive" aria-selected="false" aria-controls="panel-archive" data-target="panel-archive">
+                <span class="tab-dates">Archive</span>
+                <span class="tab-company">More selected work</span>
+              </button>
             </div>
-          </article>
+
+            <div class="experience-panels">
+              <article class="experience-panel active" role="tabpanel" id="panel-transit" aria-labelledby="tab-transit">
+                <p class="panel-kicker">Featured Project</p>
+                <h4>Interactive Urban Transit Atlas</h4>
+                <p class="panel-dates">2026</p>
+                <ul class="experience-bullets">
+                  <li>A data visualization project exploring urban transit patterns through an interactive web experience.</li>
+                  <li>Built to make public transportation data more legible, engaging, and useful for storytelling and city-focused analysis.</li>
+                  <li>Designed as a web-based project that combines urban data, mapping, and narrative presentation.</li>
+                </ul>
+                <ul class="tag-list">
+                  <li>Data Visualization</li>
+                  <li>Web Mapping</li>
+                  <li>Urban Data</li>
+                </ul>
+                <div class="panel-links">
+                  <a class="button primary" target="_blank" rel="noreferrer" href="https://up-nguyen.github.io/urban-transit-datathon-2026/">View Live Project</a>
+                </div>
+              </article>
+
+              <article class="experience-panel" role="tabpanel" id="panel-archive" aria-labelledby="tab-archive" hidden>
+                <p class="panel-kicker">Project Archive</p>
+                <h4>More selected work</h4>
+                <p class="panel-dates">Software · Community · Creative</p>
+                <ul class="experience-bullets">
+                  <li>Browse additional software, community, and creative projects from across public-interest technology, data work, and storytelling.</li>
+                  <li>Use the archive to explore a broader cross-section of experiments, collaborations, and portfolio work beyond the featured project on the homepage.</li>
+                </ul>
+                <ul class="tag-list">
+                  <li>Portfolio</li>
+                  <li>Software</li>
+                  <li>Community Projects</li>
+                </ul>
+                <div class="panel-links">
+                  <a class="button primary" href="projects.html">Open Project Archive</a>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
-
 
       <section id="run" class="content-section">
         <div class="section-heading">Run Coaching &amp; Fitness</div>
